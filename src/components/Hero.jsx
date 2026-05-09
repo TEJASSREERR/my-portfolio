@@ -30,7 +30,7 @@ export default function Hero() {
           transition={{ duration: 0.5, delay: 0.2 }}
           className="text-xl md:text-2xl text-gray-400 mb-8 max-w-2xl mx-auto"
         >
-          Beginner Developer | React | JavaScript | CSS
+           Developer | React | JavaScript | CSS
         </motion.p>
         
         <motion.div 
