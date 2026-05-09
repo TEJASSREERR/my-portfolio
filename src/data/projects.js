@@ -5,7 +5,7 @@ export const projects = [
     description: 'My personal portfolio built with React and Tailwind CSS.',
     tech: ['React', 'Tailwind CSS', 'Vite'],
     github: 'https://github.com/TEJASSREERR',
-    live: 'https://localhost:5173',
+    live: '',
     type: 'web'
   },
   {
@@ -14,7 +14,7 @@ export const projects = [
     description: 'A business analytics dashboard with data visualization and interactive components for tracking business metrics and performance.',
     tech: ['React', 'JavaScript', 'CSS'],
     github: 'https://github.com/TEJASSREERR/BISLNSIGHT-DASHBOARD-',
-    live: 'https://localhost:5173',
+    live: 'https://tejassreerr.github.io/BISLNSIGHT-DASHBOARD-/',
     type: 'web'
   },
   {
