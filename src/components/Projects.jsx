@@ -2,13 +2,13 @@ import { motion } from 'framer-motion'
 import { projects } from '../data/projects'
 import { FiGithub, FiExternalLink, FiCpu } from 'react-icons/fi'
 
-// ✅ CORRECT IMPORTS — exact file names, no spaces
+// Import all images — exact file names matching your folder
 import PortfolioImg from '../assets/PHOTO.jpg'
 import DashboardImg from '../assets/DASHBOARD.png'
 import GpsHardwareImg from '../assets/livegps.png'
 import GpsOutputImg from '../assets/gps-op.jpg'
 import AirQualityHardwareImg from '../assets/airquality.png'
-import AirQualityOutputImg from '../assets/air-op.png'
+import AirQualityOutputImg from '../assets/air-op.jpeg'
 
 // Main images array (order must match projects 1,2,3,4)
 const projectImages = [
@@ -23,7 +23,6 @@ const projectOutputImages = {
   3: [GpsOutputImg],
   4: [AirQualityOutputImg]
 }
-
 export default function Projects() {
   return (
     <section id="projects" className="py-20 px-6 max-w-7xl mx-auto">
