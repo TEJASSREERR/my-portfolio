@@ -1,6 +1,20 @@
 import { motion } from 'framer-motion'
 import { projects } from '../data/projects'
-import { FiGithub, FiExternalLink } from 'react-icons/fi'
+import { FiGithub, FiExternalLink, FiCpu } from 'react-icons/fi'
+
+// Import images
+import PortfolioImg from '../assets/PHOTO.jpg'
+import DashboardImg from '../assets/DASHBOARD.png'
+import GpsImg from '../assets/livegps.png'
+import AirQualityImg from '../assets/airquality.png'
+
+// Array of imported images matching project order
+const projectImages = [
+  PortfolioImg,      // Project 1: Portfolio Website
+  DashboardImg,      // Project 2: Bisnlight Dashboard
+  GpsImg,            // Project 3: Live GPS Vehicle Tracking
+  AirQualityImg      // Project 4: Air Quality Monitoring
+]
 
 export default function Projects() {
   return (
@@ -30,7 +44,7 @@ export default function Projects() {
             >
               <div className="relative overflow-hidden h-48">
                 <img 
-                  src={project.image} 
+                  src={projectImages[index]} 
                   alt={project.title}
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                 />
@@ -38,14 +52,28 @@ export default function Projects() {
                   <a href={project.github} target="_blank" rel="noopener noreferrer" className="p-2 bg-white/20 rounded-full hover:bg-white/40 transition-colors">
                     <FiGithub className="w-6 h-6" />
                   </a>
-                  <a href={project.live} target="_blank" rel="noopener noreferrer" className="p-2 bg-white/20 rounded-full hover:bg-white/40 transition-colors">
-                    <FiExternalLink className="w-6 h-6" />
-                  </a>
+                  {project.live && project.live !== '#' && (
+                    <a href={project.live} target="_blank" rel="noopener noreferrer" className="p-2 bg-white/20 rounded-full hover:bg-white/40 transition-colors">
+                      <FiExternalLink className="w-6 h-6" />
+                    </a>
+                  )}
+                  {project.type === 'hardware' && (
+                    <div className="p-2 bg-white/20 rounded-full">
+                      <FiCpu className="w-6 h-6 text-yellow-400" />
+                    </div>
+                  )}
                 </div>
               </div>
 
               <div className="p-6">
-                <h3 className="text-xl font-bold mb-2">{project.title}</h3>
+                <div className="flex items-center gap-2 mb-2">
+                  <h3 className="text-xl font-bold">{project.title}</h3>
+                  {project.type === 'hardware' && (
+                    <span className="px-2 py-1 bg-yellow-500/20 text-yellow-400 text-xs rounded-full">
+                      Hardware
+                    </span>
+                  )}
+                </div>
                 <p className="text-gray-400 text-sm mb-4">{project.description}</p>
                 <div className="flex flex-wrap gap-2">
                   {project.tech.map((tech) => (

@@ -1,4 +1,10 @@
 import { motion } from 'framer-motion'
+import PHOTO from '../assets/PHOTO.jpg'  // ← ADD THIS LINE
+
+export default function About() {
+
+
+import { motion } from 'framer-motion'
 
 export default function About() {
   return (
@@ -16,10 +22,10 @@ export default function About() {
 {/* Left side - Your Photo */}
 <div className="relative w-80 h-80 mx-auto">
   <img 
-    src="/src/assets/PHOTO.jpg" 
-    alt="My Photo" 
-    className="w-full h-full object-cover object-top scale-90 rounded-2xl"
-  />
+  src={PHOTO}   // ← CHANGE THIS from "/src/assets/PHOTO.jpg" to {PHOTO}
+  alt="My Photo" 
+  className="w-full h-full object-cover object-top scale-90 rounded-2xl"
+/>
   <div className="absolute -bottom-4 -right-4 w-24 h-24 bg-primary/20 rounded-full blur-2xl" />
 </div>
 
@@ -55,4 +61,4 @@ export default function About() {
       </motion.div>
     </section>
   )
-}
+}}
