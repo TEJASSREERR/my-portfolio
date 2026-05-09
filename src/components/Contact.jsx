@@ -19,7 +19,6 @@ export default function Contact() {
     setStatus('Sending...')
     
     // For now, just show a success message
-    // Later you can connect EmailJS for real email sending
     setTimeout(() => {
       setStatus('Message sent successfully!')
       setFormData({ name: '', email: '', message: '' })

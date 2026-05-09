@@ -2,19 +2,27 @@ import { motion } from 'framer-motion'
 import { projects } from '../data/projects'
 import { FiGithub, FiExternalLink, FiCpu } from 'react-icons/fi'
 
-// Import images
+// ✅ CORRECT IMPORTS — exact file names, no spaces
 import PortfolioImg from '../assets/PHOTO.jpg'
 import DashboardImg from '../assets/DASHBOARD.png'
-import GpsImg from '../assets/livegps.png'
-import AirQualityImg from '../assets/airquality.png'
+import GpsHardwareImg from '../assets/livegps.png'
+import GpsOutputImg from '../assets/gps-op.jpg'
+import AirQualityHardwareImg from '../assets/airquality.png'
+import AirQualityOutputImg from '../assets/air-op.png'
 
-// Array of imported images matching project order
+// Main images array (order must match projects 1,2,3,4)
 const projectImages = [
-  PortfolioImg,      // Project 1: Portfolio Website
-  DashboardImg,      // Project 2: Bisnlight Dashboard
-  GpsImg,            // Project 3: Live GPS Vehicle Tracking
-  AirQualityImg      // Project 4: Air Quality Monitoring
+  PortfolioImg,
+  DashboardImg,
+  GpsHardwareImg,
+  AirQualityHardwareImg
 ]
+
+// Output images for hardware projects
+const projectOutputImages = {
+  3: [GpsOutputImg],
+  4: [AirQualityOutputImg]
+}
 
 export default function Projects() {
   return (
@@ -32,7 +40,7 @@ export default function Projects() {
           Projects I've built to practice and improve my development skills.
         </p>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-8">
           {projects.map((project, index) => (
             <motion.div
               key={project.id}
@@ -42,7 +50,8 @@ export default function Projects() {
               transition={{ duration: 0.4, delay: index * 0.1 }}
               className="bg-card rounded-2xl overflow-hidden group hover:transform hover:scale-105 transition-all duration-300"
             >
-              <div className="relative overflow-hidden h-48">
+              {/* Main Image */}
+              <div className="relative overflow-hidden h-56">
                 <img 
                   src={projectImages[index]} 
                   alt={project.title}
@@ -65,6 +74,24 @@ export default function Projects() {
                 </div>
               </div>
 
+              {/* Output Images (only for hardware projects) */}
+              {project.type === 'hardware' && projectOutputImages[project.id] && (
+                <div className="px-6 pt-4">
+                  <p className="text-xs text-gray-500 mb-2 uppercase tracking-wider">Output Result</p>
+                  <div className="grid grid-cols-1 gap-2">
+                    {projectOutputImages[project.id].map((img, i) => (
+                      <img 
+                        key={i}
+                        src={img} 
+                        alt={`${project.title} output ${i + 1}`}
+                        className="w-full h-40 object-cover rounded-lg border border-gray-700"
+                      />
+                    ))}
+                  </div>
+                </div>
+              )}
+
+              {/* Project Info */}
               <div className="p-6">
                 <div className="flex items-center gap-2 mb-2">
                   <h3 className="text-xl font-bold">{project.title}</h3>
