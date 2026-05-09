@@ -3,7 +3,7 @@ import { projects } from '../data/projects'
 import { FiGithub, FiExternalLink, FiCpu } from 'react-icons/fi'
 
 // Import all images
-import PortfolioImg from '../assets/portfolio.jpg'           // ✅ Changed to your photo
+import PortfolioImg from '../assets/portfolio.png'      // ✅ Portfolio screenshot
 import DashboardImg from '../assets/DASHBOARD.png'
 import GpsHardwareImg from '../assets/livegps.png'
 import GpsOutputImg from '../assets/gps-op.jpg'
@@ -12,7 +12,7 @@ import AirQualityOutputImg from '../assets/air-op.jpeg'
 
 // Main images array (order must match projects 1,2,3,4)
 const projectImages = [
-  PortfolioImg,           // Project 1: Portfolio (now shows your photo)
+  PortfolioImg,           // Project 1: Portfolio (shows portfolio screenshot)
   DashboardImg,           // Project 2: Dashboard
   GpsHardwareImg,         // Project 3: GPS
   AirQualityHardwareImg   // Project 4: Air Quality
