@@ -3,7 +3,7 @@ import { projects } from '../data/projects'
 import { FiGithub, FiExternalLink, FiCpu } from 'react-icons/fi'
 
 // Import all images
-import PortfolioImg from '../assets/PHOTO.jpg'           // ✅ Changed to your photo
+import PortfolioImg from '../assets/portfolio.jpg'           // ✅ Changed to your photo
 import DashboardImg from '../assets/DASHBOARD.png'
 import GpsHardwareImg from '../assets/livegps.png'
 import GpsOutputImg from '../assets/gps-op.jpg'
