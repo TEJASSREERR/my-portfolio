@@ -5,7 +5,7 @@ export const projects = [
     description: 'My personal portfolio built with React and Tailwind CSS.',
     tech: ['React', 'Tailwind CSS', 'Vite'],
     github: 'https://github.com/TEJASSREERR',
-    live: '',
+    live: 'https://my-portfolio-beryl-mu-66.vercel.app/#contact',
     type: 'web'
   },
   {
