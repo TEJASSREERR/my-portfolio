@@ -18,7 +18,6 @@ const projectImages = [
   SaasAdminImg,           // Project 2: SaaS Admin
   TaskManagerImg,         // Project 3: Task Manager   ✅
   DashboardImg,           // Project 4: Dashboard  ✅
-  
   GpsHardwareImg,         
   AirQualityHardwareImg   
 ]
