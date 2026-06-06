@@ -3,10 +3,10 @@ import { projects } from '../data/projects'
 import { FiGithub, FiExternalLink, FiCpu } from 'react-icons/fi'
 
 // Import all images
-import PortfolioImg from '../assets/portfolio.png'      // ✅ Portfolio screenshot
+import PortfolioImg from '../assets/portfolio.png'
+import SaasAdminImg from '../assets/SaasAdmin.png'
+import TaskManagerImg from '../assets/TaskManager.png'      // ✅ Portfolio screenshot
 import DashboardImg from '../assets/DASHBOARD.png'
-import SaasAdminImg from '../assets/SAASADMIN.png'
-import TaskManagerImg from '../assets/TASKMANAGER.png'
 import GpsHardwareImg from '../assets/livegps.png'
 import GpsOutputImg from '../assets/gps-op.jpg'
 import AirQualityHardwareImg from '../assets/airquality.png'
