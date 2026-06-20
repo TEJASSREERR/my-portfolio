@@ -25,8 +25,26 @@ export const projects = [
     live: 'https://task-manager-gold-two.vercel.app/',
     type: 'web'
   },
+{
+  id: 4,
+  title: 'Travel Explorer Website',
+  description: 'A travel discovery web application with destination search, filtering, and responsive card-based UI. Django backend manages destination data and serves content via REST APIs.',
+  tech: ['HTML5', 'CSS3', 'JavaScript', 'Django'],
+  github: 'https://github.com/TEJASSREERR/travel-explorer',
+  live: 'https://tejassreerr.github.io/travel-explorer/',
+  type: 'web'
+},
+{
+  id: 5,
+  title: 'User Order Product Dashboard',
+  description: 'A product and order management dashboard with Django backend handling user, product, and order data models. React frontend displays order history, product listings, and user activity.',
+  tech: ['Django', 'HTML5', 'CSS3', 'JavaScript'],
+  github: 'https://github.com/TEJASSREERR/userproductorder',
+  live: 'https://tejassreerr.github.io/userproductorder/',
+  type: 'web'
+},
   {
-    id: 4,
+    id: 6,
     title: 'Bisnlight Dashboard',
     description: 'A business analytics dashboard with data visualization and interactive components for tracking business metrics and performance.',
     tech: ['React', 'JavaScript', 'CSS'],
@@ -35,7 +53,7 @@ export const projects = [
     type: 'web'
   },
   {
-    id: 5,
+    id: 7,
     title: 'Live GPS Vehicle Tracking',
     description: 'A real-time vehicle tracking system using GPS module and Telegram bot. Sends live location updates to your phone via Telegram messages using Arduino UNO.',
     tech: ['C Programming', 'Arduino UNO', 'GPS Module', 'Telegram Bot'],
@@ -44,7 +62,7 @@ export const projects = [
     type: 'hardware'
   },
   {
-    id: 6,
+    id: 8,
     title: 'Air Quality Monitoring',
     description: 'An IoT-based air quality monitoring system that measures pollutants and displays real-time air quality index using Arduino sensors and LCD display.',
     tech: ['C Programming', 'Arduino UNO', 'MQ Sensors', 'LCD Display'],

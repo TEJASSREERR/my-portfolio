@@ -5,7 +5,9 @@ import { FiGithub, FiExternalLink, FiCpu } from 'react-icons/fi'
 // Import all images
 import PortfolioImg from '../assets/portfolio.png'
 import SaasAdminImg from '../assets/SaasAdmin.png'
-import TaskManagerImg from '../assets/TaskManager.png'      // ✅ Portfolio screenshot
+import TaskManagerImg from '../assets/TaskManager.png'  
+import TravellerexplorerImg from  '../assets/TRAVELLEREXPLORER.png' 
+import UserproductorderImg from  '../assets/USERPRODUCTORDER.png' 
 import DashboardImg from '../assets/DASHBOARD.png'
 import GpsHardwareImg from '../assets/livegps.png'
 import GpsOutputImg from '../assets/gps-op.jpg'
@@ -14,10 +16,12 @@ import AirQualityOutputImg from '../assets/air-op.jpeg'
 
 // Main images array (order must match projects 1,2,3,4)
 const projectImages = [
-  PortfolioImg,           // Project 1: Portfolio
-  SaasAdminImg,           // Project 2: SaaS Admin
-  TaskManagerImg,         // Project 3: Task Manager   ✅
-  DashboardImg,           // Project 4: Dashboard  ✅
+  PortfolioImg,           
+  SaasAdminImg,           
+  TaskManagerImg, 
+  TravellerexplorerImg,
+  UserproductorderImg,       
+  DashboardImg,          
   GpsHardwareImg,         
   AirQualityHardwareImg   
 ]
