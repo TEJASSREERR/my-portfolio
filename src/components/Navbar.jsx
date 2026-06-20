@@ -20,6 +20,7 @@ export default function Navbar() {
         <div className="hidden md:flex gap-8">
           <Link to="about" smooth={true} duration={500} className="cursor-pointer hover:text-primary transition-colors">About</Link>
           <Link to="skills" smooth={true} duration={500} className="cursor-pointer hover:text-primary transition-colors">Skills</Link>
+          <Link to="internship" smooth={true} duration={500} className="cursor-pointer hover:text-primary transition-colors">Internship</Link>
           <Link to="projects" smooth={true} duration={500} className="cursor-pointer hover:text-primary transition-colors">Projects</Link>
           <Link to="contact" smooth={true} duration={500} className="cursor-pointer hover:text-primary transition-colors">Contact</Link>
         </div>
