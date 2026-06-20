@@ -14,7 +14,7 @@ export const internships = [
       'Collaborated within Agile/Scrum sprints — stand-ups, sprint planning, and retrospectives.',
       'Deployed applications on Vercel and AWS (EC2, RDS, S3) via Linux CLI.',
     ],
-    tech: ['Python', 'Django REST Framework', 'FastAPI', 'React.js', 'MySQL', 'PostgreSQL', 'Tailwind CSS', 'JWT', 'AWS', 'Vercel'],
+    tech: ['Python', 'Django REST Framework', 'FastAPI', 'React.js', 'MySQL', 'PostgreSQL', 'Tailwind CSS', 'JWT', 'AWS', 'Vercel', 'Frontend', 'Backend'],
   },
   {
     id: 2,

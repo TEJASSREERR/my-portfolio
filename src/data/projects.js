@@ -3,7 +3,7 @@ export const projects = [
     id: 1,
     title: 'Portfolio Website',
     description: 'My personal portfolio built with React and Tailwind CSS.',
-    tech: ['React', 'Tailwind CSS', 'Vite'],
+    tech: ['React', 'Tailwind CSS', 'Vite', 'Framer Motion'],
     github: 'https://github.com/TEJASSREERR/my-portfolio',
     live: 'https://my-portfolio-beryl-mu-66.vercel.app/#contact',
     type: 'web'
@@ -12,7 +12,7 @@ export const projects = [
     id: 2,
     title: 'Multi-Tenant SaaS Admin Dashboard',
     description: 'A full-featured SaaS admin panel with user management, subscription tracking, payment analytics, notifications, and system settings. Built with a clean component-driven architecture',
-    tech: ['HTML', 'CSS', 'JavaScript', 'Chart.js'],
+    tech: ['React', 'Chart.js', 'react-chartjs-2', 'Tailwind CSS', 'JavaScript'],
     github: 'https://github.com/TEJASSREERR/saas-admin',
     live: 'https://saas-admin-indol.vercel.app',
     type: 'web'
@@ -20,7 +20,7 @@ export const projects = [
     id: 3,
     title: 'Task Manager App',
     description: 'A productivity-focused task management application with create, update, delete, and status tracking features. Supports organized workflows with a clean UI.',
-    tech: ['React', 'JavaScript', 'Tailwind CSS'],
+    tech: ['Next.js', 'React', 'Django REST Framework', 'PostgreSQL', 'JWT', 'Axios', 'Google OAuth', 'Tailwind CSS'],
     github: 'https://github.com/TEJASSREERR/TASK_MANAGER',
     live: 'https://task-manager-gold-two.vercel.app/',
     type: 'web'
@@ -29,7 +29,7 @@ export const projects = [
   id: 4,
   title: 'Travel Explorer Website',
   description: 'A travel discovery web application with destination search, filtering, and responsive card-based UI. Django backend manages destination data and serves content via REST APIs.',
-  tech: ['HTML5', 'CSS3', 'JavaScript', 'Django'],
+  tech: ['HTML5', 'CSS3', 'JavaScript', 'Tailwind CSS'],
   github: 'https://github.com/TEJASSREERR/travel-explorer',
   live: 'https://tejassreerr.github.io/travel-explorer/',
   type: 'web'
@@ -38,7 +38,7 @@ export const projects = [
   id: 5,
   title: 'User Order Product Dashboard',
   description: 'A product and order management dashboard with Django backend handling user, product, and order data models. React frontend displays order history, product listings, and user activity.',
-  tech: ['Django', 'HTML5', 'CSS3', 'JavaScript'],
+  tech: ['HTML5', 'CSS3', 'JavaScript', 'Tailwind CSS'],
   github: 'https://github.com/TEJASSREERR/userproductorder',
   live: 'https://tejassreerr.github.io/userproductorder/',
   type: 'web'
@@ -47,7 +47,7 @@ export const projects = [
     id: 6,
     title: 'Bisnlight Dashboard',
     description: 'A business analytics dashboard with data visualization and interactive components for tracking business metrics and performance.',
-    tech: ['React', 'JavaScript', 'CSS'],
+    tech: ['FastAPI', 'HTML5', 'CSS3', 'JavaScript', 'Chart.js'],
     github: 'https://github.com/TEJASSREERR/BISLNSIGHT-DASHBOARD-',
     live: 'https://tejassreerr.github.io/BISLNSIGHT-DASHBOARD-/',
     type: 'web'
