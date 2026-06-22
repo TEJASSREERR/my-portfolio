@@ -1,9 +1,9 @@
 export const projects = [
   {
-    id: 1,
+   id: 1,
     title: 'Portfolio Website',
-    description: 'My personal portfolio built with React and Tailwind CSS.',
-    tech: ['React', 'Tailwind CSS', 'Vite', 'Framer Motion'],
+    description: 'My personal portfolio built with React 19 and Tailwind CSS, featuring smooth scroll navigation and animated transitions.',
+    tech: ['React', 'Tailwind CSS', 'Vite', 'Framer Motion', 'React Icons', 'React Scroll'],
     github: 'https://github.com/TEJASSREERR/my-portfolio',
     live: 'https://my-portfolio-beryl-mu-66.vercel.app/#contact',
     type: 'web'
