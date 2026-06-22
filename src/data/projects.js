@@ -11,16 +11,17 @@ export const projects = [
   {
     id: 2,
     title: 'Multi-Tenant SaaS Admin Dashboard',
-    description: 'A full-featured SaaS admin panel with user management, subscription tracking, payment analytics, notifications, and system settings. Built with a clean component-driven architecture',
-    tech: ['React', 'Chart.js', 'react-chartjs-2', 'Tailwind CSS', 'JavaScript'],
+    description: 'A full-stack SaaS admin panel with user management, subscription tracking, payment analytics, notifications, and system settings. Django REST Framework backend with PostgreSQL, React frontend with Chart.js visualizations and Tailwind CSS styling.',
+    tech: ['React', 'Chart.js', 'react-chartjs-2', 'Tailwind CSS', 'JavaScript', 'Django', 'Django REST Framework', 'PostgreSQL', 'Gunicorn'],
     github: 'https://github.com/TEJASSREERR/saas-admin',
     live: 'https://saas-admin-indol.vercel.app',
     type: 'web'
-  },{
+  },
+  {
     id: 3,
     title: 'Task Manager App',
-    description: 'A productivity-focused task management application with create, update, delete, and status tracking features. Supports organized workflows with a clean UI.',
-    tech: ['Next.js', 'React', 'Django REST Framework', 'PostgreSQL', 'JWT', 'Axios', 'Google OAuth', 'Tailwind CSS'],
+    description: 'A full-stack productivity-focused task management application with create, update, delete, and status tracking features. Django REST Framework backend with JWT and Google OAuth authentication, Next.js frontend with a clean, organized UI.',
+    tech: ['Next.js', 'React', 'Django REST Framework', 'PostgreSQL', 'JWT', 'Axios', 'Google OAuth', 'CSS3', 'CORS', 'Gunicorn'],
     github: 'https://github.com/TEJASSREERR/TASK_MANAGER',
     live: 'https://task-manager-gold-two.vercel.app/',
     type: 'web'
@@ -37,8 +38,8 @@ export const projects = [
 {
   id: 5,
   title: 'User Order Product Dashboard',
-  description: 'A product and order management dashboard with Django backend handling user, product, and order data models. React frontend displays order history, product listings, and user activity.',
-  tech: ['HTML5', 'CSS3', 'JavaScript', 'Tailwind CSS'],
+  description: 'A full-stack product and order management dashboard with a Django REST Framework backend handling user, product, and order data models via dedicated apps, and a vanilla JavaScript frontend for order history, product listings, and user activity.',
+  tech: ['Django', 'Django REST Framework', 'SQLite', 'HTML5', 'CSS3', 'JavaScript', 'Tailwind CSS', 'CORS'],
   github: 'https://github.com/TEJASSREERR/userproductorder',
   live: 'https://tejassreerr.github.io/userproductorder/',
   type: 'web'
