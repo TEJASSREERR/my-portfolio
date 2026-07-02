@@ -4,7 +4,7 @@ export const internships = [
     role: 'Python Full Stack Developer Intern',
     company: 'SourceSys',
     location: 'Chennai, Tamil Nadu',
-    duration: 'Mar 2026 – Present',
+    duration: 'Mar 2026 – Jun 2026',
     type: 'Full Stack',
     description: [
       'Built production-ready web applications using Django REST Framework and FastAPI, applying Object-Oriented Design and SOLID architecture.',
@@ -16,6 +16,7 @@ export const internships = [
     ],
     tech: ['Python', 'Django REST Framework', 'FastAPI', 'React.js', 'MySQL', 'PostgreSQL', 'Tailwind CSS', 'JWT', 'AWS', 'Vercel', 'Frontend', 'Backend'],
   },
+
   {
     id: 2,
     role: 'Web Development Intern',
@@ -32,6 +33,7 @@ export const internships = [
     ],
     tech: ['HTML5', 'CSS3', 'JavaScript', 'React.js', 'Axios', 'Git', 'Agile'],
   },
+  
   {
     id: 3,
     role: 'C Programming Intern',
