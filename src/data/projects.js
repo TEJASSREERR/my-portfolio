@@ -1,3 +1,6 @@
+import airQualityOutput from '../assets/air-op.jpg';
+import liveGpsOutput from '../assets/live-gps.jpg';
+
 export const projects = [
   {
    id: 1,
@@ -53,22 +56,24 @@ export const projects = [
     live: 'https://tejassreerr.github.io/BISLNSIGHT-DASHBOARD-/',
     type: 'web'
   },
-  {
-    id: 7,
-    title: 'Live GPS Vehicle Tracking',
-    description: 'A real-time vehicle tracking system using GPS module and Telegram bot. Sends live location updates to your phone via Telegram messages using Arduino UNO.',
-    tech: ['C Programming', 'Arduino UNO', 'GPS Module', 'Telegram Bot'],
-    github: 'https://github.com/TEJASSREERR/LIVE-GPS-TRACKING',
-    live: null,
-    type: 'hardware'
-  },
-  {
-    id: 8,
-    title: 'Air Quality Monitoring',
-    description: 'An IoT-based air quality monitoring system that measures pollutants and displays real-time air quality index using Arduino sensors and LCD display.',
-    tech: ['C Programming', 'Arduino UNO', 'MQ Sensors', 'LCD Display'],
-    github: 'https://github.com/TEJASSREERR/AIR-QUALITY-MONITORING',
-    live: null,
-    type: 'hardware'
-  }
+{
+  id: 7,
+  title: 'Live GPS Vehicle Tracking',
+  description: 'A real-time vehicle tracking system using GPS module and Telegram bot. Sends live location updates to your phone via Telegram messages using Arduino UNO.',
+  tech: ['C Programming', 'Arduino UNO', 'GPS Module', 'Telegram Bot'],
+  github: 'https://github.com/TEJASSREERR/LIVE-GPS-TRACKING',
+  live: null,
+  image: liveGpsOutput,
+  type: 'hardware'
+},
+{
+  id: 8,
+  title: 'Air Quality Monitoring',
+  description: 'An IoT-based air quality monitoring system that measures pollutants and displays real-time air quality index using Arduino sensors and LCD display.',
+  tech: ['C Programming', 'Arduino UNO', 'MQ Sensors', 'LCD Display'],
+  github: 'https://github.com/TEJASSREERR/AIR-QUALITY-MONITORING',
+  live: null,
+  image: airQualityOutput,
+  type: 'hardware'
+}
 ]
