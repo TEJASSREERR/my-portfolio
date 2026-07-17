@@ -8,7 +8,7 @@ export const projects = [
     description: 'My personal portfolio built with React 19 and Tailwind CSS, featuring smooth scroll navigation and animated transitions.',
     tech: ['React', 'Tailwind CSS', 'Vite', 'Framer Motion', 'React Icons', 'React Scroll'],
     github: 'https://github.com/TEJASSREERR/my-portfolio',
-    live: 'https://my-portfolio-beryl-mu-66.vercel.app/#contact',
+    live: 'https://my-portfolio-beryl-mu-66.vercel.app',
     type: 'web'
   },
   {
