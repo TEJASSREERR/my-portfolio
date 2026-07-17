@@ -92,6 +92,7 @@ export default function Projects() {
             </h2>
             <p className="section-subheading">
               Selected projects demonstrating frontend, backend, and IoT solutions delivered with care.
+            </p>
         </div>
 
         <div className="mt-12 grid gap-8 lg:grid-cols-2">
