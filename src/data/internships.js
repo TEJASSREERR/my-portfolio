@@ -15,10 +15,27 @@ export const internships = [
       'Deployed applications on Vercel and AWS (EC2, RDS, S3) via Linux CLI.',
     ],
     tech: ['Python', 'Django REST Framework', 'FastAPI', 'React.js', 'MySQL', 'PostgreSQL', 'Tailwind CSS', 'JWT', 'AWS', 'Vercel', 'Frontend', 'Backend'],
+    certificates: ['Internship Completion Certificate', 'Full Stack Development Certificate'],
   },
 
   {
     id: 2,
+    role: 'Electronics Intern — Semitec Electronics India Pvt. Ltd.',
+    company: 'Semitec Electronics India Pvt. Ltd.',
+    location: 'Bengaluru, Karnataka',
+    duration: 'Jun 2025 – Jul 2025',
+    type: 'Electronics',
+    description: [
+      'Completed a one-month internship at a networking and electronics hardware company, working closely with engineering staff on team-based technical activities.',
+      'Quickly adapted to new technical concepts and gained hands-on exposure to practical electronics and hardware workflows.',
+      'Strengthened my ability to collaborate in a professional engineering environment while learning real-world problem-solving approaches.',
+    ],
+    tech: ['Electronics', 'Hardware', 'Networking', 'Team Collaboration', 'Technical Learning'],
+    certificates: ['Electronics Internship Certificate', 'Hands-on Training Certificate'],
+  },
+
+  {
+    id: 3,
     role: 'Web Development Intern',
     company: 'CodeTech IT Solutions',
     location: 'Hyderabad, Telangana',
@@ -32,10 +49,11 @@ export const internships = [
       'Optimized frontend performance through lazy loading, DOM optimization, and event-handling best practices.',
     ],
     tech: ['HTML5', 'CSS3', 'JavaScript', 'React.js', 'Axios', 'Git', 'Agile'],
+    certificates: ['Frontend Development Certificate', 'Web Development Certificate'],
   },
   
   {
-    id: 3,
+    id: 4,
     role: 'C Programming Intern',
     company: 'Pentasoftware',
     location: 'Tiruchengode, Tamil Nadu',
@@ -47,5 +65,6 @@ export const internships = [
       'Demonstrated proficiency in memory management, pointer manipulation, and low-level system programming.',
     ],
     tech: ['C Programming', 'Data Structures', 'Algorithms', 'Memory Management', 'Pointer Manipulation', 'Embedded Systems', 'Unit Testing'],
+    certificates: ['Embedded Systems Certificate', 'C Programming Internship Certificate'],
   },
 ];

@@ -4,20 +4,25 @@ import { internships } from '../data/internships';
 
 const Internship = () => {
   return (
-    <section id="internship" className="py-20 px-4 md:px-8 max-w-7xl mx-auto">
+    <section id="internship" className="section-shell px-4 md:px-8">
       <motion.div
         initial={{ opacity: 0, y: 40 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         transition={{ duration: 0.6 }}
       >
-        <h2 className="text-3xl md:text-4xl font-bold text-center mb-4 text-white">
-          Internship <span className="text-[#6C63FF]">Experience</span>
-        </h2>
-        <div className="w-20 h-1 bg-[#6C63FF] mx-auto mb-12 rounded-full" />
+        <div className="text-center">
+          <div className="section-kicker mx-auto border-[#6C63FF]/20 bg-[#6C63FF]/10 text-[#6C63FF]">Professional Journey</div>
+          <h2 className="section-heading mt-6 text-white">
+            Internship <span className="accent text-[#6C63FF]">Experience</span>
+          </h2>
+          <p className="section-subheading">
+            A concise view of internships and practical engineering experience that shaped my skillset.
+          </p>
+        </div>
       </motion.div>
 
-      <div className="space-y-8">
+      <div className="mt-12 space-y-8">
         {internships.map((intern, index) => (
           <motion.div
             key={intern.id}
@@ -25,7 +30,7 @@ const Internship = () => {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.5, delay: index * 0.15 }}
-            className="bg-[#1a1a2e] border border-white/10 rounded-2xl p-6 md:p-8 hover:border-[#6C63FF]/40 transition-all duration-300"
+            className="rounded-3xl border border-white/10 bg-[#1a1a2e] p-6 md:p-8 transition-all duration-300 hover:border-[#6C63FF]/40"
           >
             <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-4 mb-6">
               <div className="flex-1">
@@ -76,6 +81,21 @@ const Internship = () => {
                 </span>
               ))}
             </div>
+
+            {intern.certificates && intern.certificates.length > 0 && (
+              <div className="mt-6 rounded-2xl border border-[#6C63FF]/20 bg-[#6C63FF]/10 p-4">
+                <p className="mb-3 text-sm font-semibold uppercase tracking-[0.25em] text-[#8b85ff]">
+                  Certificates
+                </p>
+                <div className="flex flex-wrap gap-2">
+                  {intern.certificates.map((certificate) => (
+                    <span key={certificate} className="rounded-full border border-[#6C63FF]/30 bg-slate-950/60 px-3 py-1.5 text-sm text-slate-200">
+                      {certificate}
+                    </span>
+                  ))}
+                </div>
+              </div>
+            )}
           </motion.div>
         ))}
       </div>

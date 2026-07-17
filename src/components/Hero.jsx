@@ -28,22 +28,34 @@ export default function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.2 }}
-          className="text-xl md:text-2xl text-gray-400 mb-8 max-w-2xl mx-auto"
+          className="text-xl md:text-2xl text-gray-300 mb-4 max-w-2xl mx-auto"
         >
-           Developer | React | JavaScript | CSS
+          I build scalable web applications with React, modern JavaScript, and thoughtful user experiences.
+        </motion.p>
+
+        <motion.p 
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5, delay: 0.25 }}
+          className="text-base md:text-lg text-gray-400 mb-8 max-w-2xl mx-auto"
+        >
+          Open to frontend, full-stack, and internship opportunities with a focus on quality, delivery, and clean code.
         </motion.p>
         
         <motion.div 
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.3 }}
-          className="flex gap-4 justify-center"
+          className="flex flex-wrap justify-center gap-4"
         >
           <a href="#projects" className="bg-primary text-white px-8 py-3 rounded-full font-medium hover:bg-primary/80 transition-colors">
             View My Work
           </a>
           <a href="#contact" className="border border-primary text-primary px-8 py-3 rounded-full font-medium hover:bg-primary/10 transition-colors">
             Contact Me
+          </a>
+          <a href="mailto:tejassreerr@gmail.com" className="bg-white/10 text-white px-8 py-3 rounded-full font-medium hover:bg-white/20 transition-colors">
+            Email Me
           </a>
         </motion.div>
       </div>
