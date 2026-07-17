@@ -1,5 +1,5 @@
-import airQualityOutput from '../assets/air-op.jpg';
 import liveGpsOutput from '../assets/live-gps.jpg';
+import airQualityOutput from '../assets/air-op.jpeg';
 
 export const projects = [
   {
