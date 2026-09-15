@@ -17,7 +17,6 @@ export const skills = {
     { name: 'JWT & OAuth Authentication', level: 80 }
   ],
   hardware: [
-    { name: 'Responsive/Mobile-First Design', level: 82 },
     { name: 'Agile/Scrum', level: 80 },
     { name: 'Git/GitHub', level: 85 },
     { name: 'GitHub Actions (CI/CD)', level: 74 }

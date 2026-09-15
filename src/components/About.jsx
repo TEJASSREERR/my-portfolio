@@ -39,7 +39,7 @@ export default function About() {
             </div>
             <div className="rounded-2xl border border-white/10 bg-white/[0.03] p-4">
               <h3 className="text-xl font-semibold text-primary">Modern Stack</h3>
-              <p className="mt-1 text-sm text-gray-500">React, Django, FastAPI</p>
+              <p className="mt-1 text-sm text-gray-500">React, FastAPI</p>
             </div>
             <div className="rounded-2xl border border-white/10 bg-white/[0.03] p-4">
               <h3 className="text-xl font-semibold text-primary">Deploy Ready</h3>
