@@ -9,8 +9,8 @@
 ### 🚀 About Me
 
 - 🔭 Frontend & Full Stack Developer specializing in **React.js, Next.js**, and modern **JavaScript (ES6+)**
-- 🌱 Experienced in building secure RESTful APIs with **Node.js, Express.js, Django REST Framework**, and **FastAPI**
-- 🗄️ Strong database design skills across **MongoDB, MySQL, and PostgreSQL**
+- 🌱 Experienced in building secure RESTful APIs with ** Django REST Framework**, and **FastAPI**
+- 🗄️ Strong database design skills across ** MySQL, and PostgreSQL**
 - 🎓 B.E. in Electronics and Communication Engineering, Anna University (CGPA: 8.41/10) — Graduating May 2026
 - 💼 Currently available to join immediately as a fresher-level developer
 - ⚡ Fun fact: I love turning clean designs into pixel-perfect, responsive interfaces!
@@ -23,7 +23,7 @@
 - React, Next.js, JavaScript, TypeScript, Tailwind CSS, Bootstrap
 
 **Backend**
-- Node.js, Express.js, Django, FastAPI, Flask
+- Django, FastAPI, Flask
 
 **Databases & Tools**
 - MongoDB, MySQL, PostgreSQL, Firebase, Git, Docker, Postman
