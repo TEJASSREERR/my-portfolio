@@ -8,8 +8,7 @@ export const skills = {
     { name: 'React.js', level: 85 }
   ],
   backend: [
-    { name: 'PostgreSQL', level: 80 },
-    { name: 'MySQL', level: 78 },
+    { name: 'MySQL', level: 77 },
     { name: 'JWT & OAuth Authentication', level: 80 }
   ],
   hardware: [
