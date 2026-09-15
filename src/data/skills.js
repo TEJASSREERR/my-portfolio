@@ -8,28 +8,21 @@ export const skills = {
     { name: 'Django REST Framework', level: 82 },
     { name: 'FastAPI', level: 80 },
     { name: 'React.js', level: 85 },
-    { name: 'Tailwind CSS', level: 80 },
-    { name: 'Bootstrap', level: 78 }
+    { name: 'Tailwind CSS', level: 80 }
   ],
   backend: [
     { name: 'PostgreSQL', level: 80 },
     { name: 'MySQL', level: 78 },
     { name: 'REST API Design & Integration', level: 85 },
-    { name: 'Frontend-Backend Integration', level: 82 },
-    { name: 'JWT & OAuth Authentication', level: 80 },
-    { name: 'Component-Based Architecture', level: 84 }
+    { name: 'JWT & OAuth Authentication', level: 80 }
   ],
   hardware: [
     { name: 'Responsive/Mobile-First Design', level: 82 },
     { name: 'Agile/Scrum', level: 80 },
     { name: 'Git/GitHub', level: 85 },
-    { name: 'Code Reviews', level: 80 },
-    { name: 'CI Concepts', level: 76 },
     { name: 'GitHub Actions (CI/CD)', level: 74 }
   ],
   other: [
-    { name: 'Defect Remediation & Debugging', level: 85 },
-    { name: 'Technical Documentation', level: 80 },
     { name: 'Cross-Browser Testing', level: 78 },
     { name: 'VS Code', level: 90 },
     { name: 'Postman', level: 82 },
