@@ -21,7 +21,7 @@ export const projects = [
     id: 3,
     title: 'Task Manager App',
     description: 'A full-stack productivity-focused task management application with create, update, delete, and status tracking features. Django REST Framework backend with JWT and Google OAuth authentication, Next.js frontend with a clean, organized UI.',
-    tech: ['Next.js', 'React', 'Django REST Framework', 'PostgreSQL', 'JWT', 'Axios', 'Google OAuth', 'CSS3', 'CORS', 'Gunicorn'],
+    tech: ['React', 'Django REST Framework', 'PostgreSQL', 'JWT', 'Axios', 'Google OAuth', 'CSS3', 'CORS'],
     github: 'https://github.com/TEJASSREERR/TASK_MANAGER',
     live: 'https://task-manager-gold-two.vercel.app/',
     type: 'web'
